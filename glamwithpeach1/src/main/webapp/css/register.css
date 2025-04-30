@@ -1,0 +1,146 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5e8d0; /* Cream color */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container {
+    background: #a56b6b; ;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    color: #5C4033; /* Dark brown */
+    margin-bottom: 20px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #5C4033; /* Dark brown underline */
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #5C4033; /* Dark brown text */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 12px;
+    background: #5C4033; /* Dark brown button */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.registration-form button:hover {
+    background: #3e2723; /* Even darker brown on hover */
+}
+
+.signin-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5C4033; /* Dark brown text */
+}
+
+.signin-text a {
+    color: #5C4033; /* Dark brown link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    color: #5C4033; /* Dark brown */
+    margin-bottom: 20px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #5C4033; /* Dark brown underline */
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #5C4033; /* Dark brown text */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 12px;
+    background: #5C4033; /* Dark brown button */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.registration-form button:hover {
+    background: #3e2723; /* Even darker brown on hover */
+}
+
+.signin-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5C4033; /* Dark brown text */
+}
+
+.signin-text a {
+    color: #5C4033; /* Dark brown link */
+    text-decoration: none;
+    font-weight: bold;
+}

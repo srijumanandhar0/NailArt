@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* Global Styles */
+body {
+  background-color:#f5e8d0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Context Styling */
+.page-context {
+  background-color: #ffffff;
+  color: #333;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Login Form Section */
+.login-form {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Container Layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Content Section */
+.content {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.content h2 {
+  color:#6F4E37;
+  margin-bottom: 20px;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content input[type="text"],
+.content input[type="password"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.content button {
+  background-color:#6F4E37;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color:#6F4E37;
+}
+
+.account {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.account a {
+  color: rgb(128, 64, 64);
+  text-decoration: none;
+}
+
+.account a:hover {
+  text-decoration: underline;
+}
+
+/* Image Section */
+.form-img {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.form-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
